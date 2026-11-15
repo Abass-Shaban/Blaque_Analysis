@@ -1,0 +1,51 @@
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# ------------------------------------------------------------- Environment
+# Keep .env.example, ignore real secrets.
+.env
+
+# -------------------------------------------------------- Application data
+# Ignore SQLite databases and temporary WAL/SHM files.
+# Keep the trained model artifact in data/models so serverless deployments (Vercel) have it ready.
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.sqlite*
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+!data/models/
+!data/models/*
+
+# ------------------------------------------------------------------- Logs
+*.log
+
+# ------------------------------------------- Reference fixtures from dev
+espn_*.json
+data_leagues.json
+
+# ----------------------------------------------------------------- Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+node_modules/
+.vercel/
+
+# ---------------------------------------------------------- OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
