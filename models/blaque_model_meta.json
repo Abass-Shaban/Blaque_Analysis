@@ -1,0 +1,119 @@
+{
+  "features": [
+    "home_ppg5",
+    "home_gf5",
+    "home_ga5",
+    "home_btts5",
+    "home_corners5",
+    "away_ppg5",
+    "away_gf5",
+    "away_ga5",
+    "away_btts5",
+    "away_corners5",
+    "home_ppg10",
+    "away_ppg10",
+    "home_rest_days",
+    "away_rest_days",
+    "h2h_home_ppg",
+    "league_home_goals",
+    "league_away_goals"
+  ],
+  "metrics": {
+    "samples": 875,
+    "accuracy": 0.5143,
+    "log_loss": 1.0038,
+    "brier": 0.5992,
+    "confusion_matrix": [
+      [
+        337,
+        1,
+        67
+      ],
+      [
+        138,
+        0,
+        46
+      ],
+      [
+        168,
+        5,
+        113
+      ]
+    ],
+    "class_distribution": {
+      "home_win": 405,
+      "draw": 184,
+      "away_win": 286
+    }
+  },
+  "comparison": {
+    "logistic": {
+      "samples": 875,
+      "accuracy": 0.5143,
+      "log_loss": 1.0038,
+      "brier": 0.5992,
+      "confusion_matrix": [
+        [
+          337,
+          1,
+          67
+        ],
+        [
+          138,
+          0,
+          46
+        ],
+        [
+          168,
+          5,
+          113
+        ]
+      ],
+      "class_distribution": {
+        "home_win": 405,
+        "draw": 184,
+        "away_win": 286
+      }
+    },
+    "hist_gradient_boosting": {
+      "samples": 875,
+      "accuracy": 0.4617,
+      "log_loss": 1.1186,
+      "brier": 0.6623,
+      "confusion_matrix": [
+        [
+          266,
+          55,
+          84
+        ],
+        [
+          105,
+          39,
+          40
+        ],
+        [
+          139,
+          48,
+          99
+        ]
+      ],
+      "class_distribution": {
+        "home_win": 405,
+        "draw": 184,
+        "away_win": 286
+      }
+    }
+  },
+  "algorithm": "logistic",
+  "version": "ml-20261111-0726",
+  "trained_at": "2026-11-11T07:26:33.128087Z",
+  "samples": 4372,
+  "validation_samples": 875,
+  "class_distribution": {
+    "home_win": 405,
+    "draw": 184,
+    "away_win": 286
+  },
+  "model_file": "C:\\Users\\abbas\\Documents\\MY Projects\\BLAQUE ANALYSIS\\data\\models\\blaque_model.joblib",
+  "available": true
+}

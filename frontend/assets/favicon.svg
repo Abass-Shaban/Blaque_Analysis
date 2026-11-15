@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="BLAQUE ANALYSIS">
+  <defs>
+    <linearGradient id="s" x1="104" y1="84" x2="408" y2="436" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="0.38" stop-color="#b7c0ca"/>
+      <stop offset="0.52" stop-color="#7e8895"/><stop offset="0.7" stop-color="#e6ebf0"/>
+      <stop offset="1" stop-color="#69737f"/>
+    </linearGradient>
+    <linearGradient id="b" x1="148" y1="146" x2="386" y2="388" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a8d4ff"/><stop offset="0.5" stop-color="#3f8dff"/><stop offset="1" stop-color="#123f9f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="#161716"/>
+  <circle cx="256" cy="256" r="148" fill="none" stroke="url(#s)" stroke-width="46"/>
+  <line x1="148" y1="148" x2="372" y2="372" stroke="url(#b)" stroke-width="42" stroke-linecap="round"/>
+  <line x1="360" y1="150" x2="152" y2="358" stroke="url(#b)" stroke-width="26" stroke-linecap="round" opacity="0.92"/>
+  <circle cx="396" cy="116" r="13" fill="#25d162"/>
+</svg>
